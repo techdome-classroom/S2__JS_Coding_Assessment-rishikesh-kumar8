@@ -21,9 +21,9 @@ var romanToInt = function(s) {
         }else{
             total+=curr;
         }
-    }
+    }return total;
 };
-return total;
+
 console.log(romanToInt("III"));
 
 
