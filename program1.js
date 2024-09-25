@@ -7,7 +7,7 @@ var isValid = function (s) {
   let map = {
     ')': '(',
     ']': '[',
-    '}': '',
+    '}': '{',
   };
   for (let i = 0; i < s.length; i++) {
     let char = s[i];
