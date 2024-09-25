@@ -14,8 +14,9 @@ var romanToInt = function(s) {
     }
     let ans=0;
     for(let i=0;i<s.length;i++){
-        if(m[s[i]]<m[s[i]])
-            
+        if(m[s[i]]<m[s[i]]){
+            ans-=m[s[i]]
+        }
     }
 };
 
