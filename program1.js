@@ -13,7 +13,7 @@ var isValid = function (s) {
   
     if (char in map) {
       
-      if (stack.pop()) {
+      if (stack.pop()!==map) {
         return false;
       } else {
         stack.push(char);
