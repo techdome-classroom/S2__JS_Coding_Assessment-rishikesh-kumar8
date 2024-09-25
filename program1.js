@@ -20,7 +20,7 @@ var isValid = function (s) {
       }
     }
   }
-  return
+  return stack.length===0;
 };
 
 module.exports = { isValid };
