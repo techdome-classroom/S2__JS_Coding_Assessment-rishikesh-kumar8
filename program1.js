@@ -12,7 +12,9 @@ var isValid = function(s) {
     };
     for (let i=0;i<s.length;i++){
         let char =s[i];
-        if(char in map )
+        if(char in map ){
+            
+        }
     }
 };
 
