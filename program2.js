@@ -21,6 +21,7 @@ var romanToInt = function(s) {
         }
     }
 };
+return ans;
 
 
 module.exports={romanToInt}
