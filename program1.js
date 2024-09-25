@@ -15,7 +15,9 @@ var isValid = function(s) {
         if(char in map ){
             let topElement=stack.length===0?'#':
             stack.pop();
-            if(map[char]!==topElement)
+            if(map[char]!==topElement){
+                return false;
+            }
         }
     }
 };
