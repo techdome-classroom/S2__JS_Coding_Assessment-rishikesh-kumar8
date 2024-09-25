@@ -6,7 +6,9 @@ var isValid = function(s) {
     let stack =[];
     let map ={
         ')':'(',
-        
+        ')':'(',
+        ')':'(',
+
     }
 };
 
