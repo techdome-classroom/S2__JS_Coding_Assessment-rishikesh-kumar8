@@ -12,7 +12,7 @@ var isValid = function (s) {
   for (let char of s) {
   
     if (char in map) {
-      let topElement = stack.length === 0 ? "#" : stack.pop();
+      
       if (map[char] !== topElement) {
         return false;
       } else {
