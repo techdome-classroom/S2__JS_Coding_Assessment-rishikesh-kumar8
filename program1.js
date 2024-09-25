@@ -9,7 +9,7 @@ var isValid = function (s) {
     ']': '[',
     '}': '{',
   };
-  for (let i = 0; i < s.length; i++) {
+  for (let char of s) {
     let char = s[i];
     if (char in map) {
       let topElement = stack.length === 0 ? "#" : stack.pop();
