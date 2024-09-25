@@ -19,7 +19,7 @@ var romanToInt = function(s) {
         if(curr<next){
            total-=curr;
         }else{
-            total-=curr;
+            total+=curr;
         }
     }
 };
