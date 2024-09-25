@@ -5,6 +5,12 @@
 var romanToInt = function(s) {
     const m={
         'I':1,
+        'I':1,
+        'I':1,
+        'I':1,
+        'I':1,
+        'I':1,
+        'I':1,
     }
 };
 
