@@ -23,7 +23,7 @@ var romanToInt = function(s) {
         }
     }
 };
-return ans;
+return total;
 
 
 
