@@ -17,6 +17,8 @@ var isValid = function(s) {
             stack.pop();
             if(map[char]!==topElement){
                 return false;
+            }else{
+                stack.push(char);
             }
         }
     }
