@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    d
+    let stack =
 };
 
 module.exports = { isValid };
