@@ -9,8 +9,8 @@ var romanToInt = function(s) {
         'X':10,
         'L':50,
         'C':100,
-        'D':1,
-        'I':1,
+        'D':500,
+        'M':1,
     }
 };
 
